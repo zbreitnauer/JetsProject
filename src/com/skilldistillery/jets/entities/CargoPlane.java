@@ -9,5 +9,11 @@ public class CargoPlane extends Jet implements CargoCarrier {
 	public void loadCargo() {
 		System.out.println("LOADING CARGO....");
 	}
+	
+	@Override
+	public String toString() {
+		return "CargoPl" + " Model:"+ getModel() + " Speed:" + getSpeed() + " Range:" + getRange() + " Price:" + getPrice();
+				
+	}
 
 }

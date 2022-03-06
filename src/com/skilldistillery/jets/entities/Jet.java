@@ -17,9 +17,12 @@ public abstract class Jet {
 	}
 	
 	public void fly(){
+		int time = range/speed;
 		System.out.println("Model: " + model + " Speed: " + speed + " Range: " + range + " Price: " + price);
+		System.out.println("Hours Til Empty:" + time);
+		System.out.println();
 	}
-
+	
 	public String getModel() {
 		return model;
 	}
